@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "shephoz"
+  },
+  "targets": {
+    "shephoz": {
+      "hosting": {
+        "n0ph-com": [
+          "n0ph-com"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
