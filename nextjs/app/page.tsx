@@ -1,5 +1,6 @@
 import styles from "./page.module.css";
 import Logo from "./logo";
+import Link from "next/link";
 
 const links = [
   { title: "YouTube", url: "https://www.youtube.com/@_n0ph" },
@@ -13,6 +14,9 @@ export default function Home() {
       <Logo />
 
       <div className={styles.grid}>
+        {/* <Link href="/works/music" className={styles.card}>
+          <h2>作品</h2>
+        </Link> */}
         {links.map((link) => (
           <a
             key={link.url}
