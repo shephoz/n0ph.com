@@ -1,5 +1,14 @@
 dev:
-	cd ./gridsome && NODE_OPTIONS=--openssl-legacy-provider gridsome develop
+	cd ./nextjs && npx next dev
 
 build:
-	cd ./gridsome && NODE_OPTIONS=--openssl-legacy-provider gridsome build
+	cd ./nextjs && npx next build
+
+export: 
+	cd ./nextjs && npx next export
+
+fbdeploy:
+	firebase deploy
+
+deploy:
+	build export deploy

@@ -1,7 +1,7 @@
 {
   "hosting": {
     "target": "n0ph-com",
-    "public": "gridsome/dist",
+    "public": "nextjs/out",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
   }
 }
